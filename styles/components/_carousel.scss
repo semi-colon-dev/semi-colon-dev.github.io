@@ -1,0 +1,9 @@
+app-our-projects {
+  .p-carousel {
+    .p-carousel-prev-button,
+    .p-carousel-next-button,
+    .p-carousel-indicator-list {
+      display: none;
+    }
+  }
+}

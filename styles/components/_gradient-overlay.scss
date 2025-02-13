@@ -1,0 +1,12 @@
+.gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: linear-gradient(
+    to right,
+    var(--black-900) 4%,
+    transparent 50%,
+    var(--black-900) 100%
+  );
+}
