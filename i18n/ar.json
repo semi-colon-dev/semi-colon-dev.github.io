@@ -1,8 +1,10 @@
 {
-  "HOME": "الصفحة الرئيسية",
-  "ABOUT_US": "حولنا",
-  "OUR_PRODUCTS": "منتجاتنا",
-  "OUR_SERVICES": "خدماتنا",
-  "OUR_PROJECTS": "مشاريعنا",
-  "CAREERS": "الوظائف"
+  "LABELS": {
+    "HOME": "الصفحة الرئيسية",
+    "ABOUT_US": "نبذة عنا",
+    "PRODUCTS": "المنتجات",
+    "SERVICES": "الخدمات",
+    "PROJECTS": "المشاريع",
+    "CAREERS": "الوظائف"
+  }
 }

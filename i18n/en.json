@@ -1,8 +1,10 @@
 {
-  "HOME": "Home",
-  "ABOUT_US": "About us",
-  "OUR_PRODUCTS": "Our products",
-  "OUR_SERVICES": "Our services",
-  "OUR_PROJECTS": "Our projects",
-  "CAREERS": "Careers"
+  "LABELS": {
+    "HOME": "Home",
+    "ABOUT_US": "About us",
+    "PRODUCTS": "Products",
+    "SERVICES": "Services",
+    "PROJECTS": "Projects",
+    "CAREERS": "Careers"
+  }
 }

@@ -1,17 +1,26 @@
 .main-menubar {
   --menubar-gap: 1rem;
-  background-color: #010b14a5;
-  // backdrop-filter: blur(10px);
+  background: none;
   border: none;
-  border-radius: var(--border-round-3xl);
   padding: 0;
   justify-content: space-between;
+  gap: 0;
+  align-items: flex-start;
   p-menubarsub {
-    margin-top: 1rem;
+    background-color: #010b14a5;
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 3.5rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     ul {
       color: var(--primary-contrast-color);
+      flex-wrap: nowrap;
+      white-space: nowrap;
       .p-menubar-item > .p-menubar-item-content {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         font-weight: 600;
         position: relative;
         color: var(--primary-contrast-color);
@@ -19,6 +28,7 @@
         cursor: pointer;
         &:hover {
           color: var(--primary-color);
+          filter: drop-shadow(0 0 2px var(--primary-color));
           &:after {
             width: 80%;
           }
@@ -40,23 +50,42 @@
     }
   }
   .p-menubar-start {
-    // align-self: flex-start;
+    background-color: #010b14a5;
+    width: 100%;
+    height: 2.6rem;
+    div {
+      margin: 0 3rem;
+    }
   }
   .p-menubar-end {
+    background-color: #010b14a5;
     margin: 0;
-    // align-self: flex-start;
+    width: 100%;
+    height: 2.6rem;
+    align-self: unset;
+    .menu-end {
+      justify-self: flex-end;
+    }
   }
 }
+
 [dir='rtl'] .main-menubar {
   --menubar-gap: 2rem;
 }
 
-.menubar-shape {
-  height: 1rem;
-  width: 60%;
-  background-color: #010b14a5;
-  // backdrop-filter: blur(10px);
-  margin: auto;
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+[dir='ltr'] .p-menubar-start {
+  border-top-left-radius: var(--border-round-3xl);
+  border-bottom-left-radius: var(--border-round-3xl);
+}
+[dir='rtl'] .p-menubar-start {
+  border-top-right-radius: var(--border-round-3xl);
+  border-bottom-right-radius: var(--border-round-3xl);
+}
+[dir='ltr'] .p-menubar-end {
+  border-top-right-radius: var(--border-round-3xl);
+  border-bottom-right-radius: var(--border-round-3xl);
+}
+[dir='rtl'] .p-menubar-end {
+  border-top-left-radius: var(--border-round-3xl);
+  border-bottom-left-radius: var(--border-round-3xl);
 }
