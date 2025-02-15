@@ -1,5 +1,6 @@
 .p-divider {
   margin: 0;
+  z-index: 3;
   &::before {
     border-block-start: 3px solid var(--black-500);
   }
