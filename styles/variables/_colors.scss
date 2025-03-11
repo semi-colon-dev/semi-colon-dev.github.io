@@ -1,16 +1,4 @@
 :root {
-  --primary-color: var(--blue-500);
-  --primary-hover-color: var(--blue-400);
-  --primary-active-color: var(--blue-300);
-  --text-color: var(--white-100);
-  --button-outlined-primary-border-color: var(--primary-color);
-  --primary-text-color: var(--white-100);
-  --primary-contrast-color: var(--primary-text-color);
-  --surface-0: var(--black-900);
-  --surface-500: var(--black-500);
-  --border-round-3xl: 1.5rem;
-
-  // ======================= Colors =======================
   // Blue
   --blue-100: #ebf0f5;
   --blue-200: #b8d8f5;
@@ -72,19 +60,9 @@
   --black-800: #040f1a;
   --black-900: #010b14;
 }
-// Classes
-.top-1 {
-  top: 1rem;
-}
-
-.h-100dvh {
-  height: 100dvh;
-}
-
 .text-white-300 {
   color: var(--white-300);
 }
-
 .text-white-800 {
   color: var(--white-800);
 }

@@ -7,7 +7,8 @@
   gap: 0;
   align-items: flex-start;
   p-menubarsub {
-    background-color: #010b14a5;
+  // backdrop-filter: blur(5px);
+  background-color: #010b14a5;
     width: 100%;
     padding-top: 1rem;
     padding-left: 1.5rem;
@@ -50,7 +51,8 @@
     }
   }
   .p-menubar-start {
-    background-color: #010b14a5;
+  // backdrop-filter: blur(5px);
+  background-color: #010b14a5;
     width: 100%;
     height: 2.6rem;
     div {
@@ -58,7 +60,8 @@
     }
   }
   .p-menubar-end {
-    background-color: #010b14a5;
+  // backdrop-filter: blur(5px);
+  background-color: #010b14a5;
     margin: 0;
     width: 100%;
     height: 2.6rem;

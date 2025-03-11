@@ -9,6 +9,13 @@
   background: var(--white-100);
   color: var(--blue-700);
   border: none;
+  transition: scale 0.1s linear;
+  &:hover {
+    scale: 0.95;
+  }
+  &:active {
+    scale: 1.05;
+  }
 }
 .p-button-outlined {
   padding: 0.7rem 2.5rem;

@@ -1,0 +1,12 @@
+:root {
+  --primary-color: var(--blue-500);
+  --primary-hover-color: var(--blue-400);
+  --primary-active-color: var(--blue-300);
+  --text-color: var(--white-100);
+  --button-outlined-primary-border-color: var(--primary-color);
+  --primary-text-color: var(--white-100);
+  --primary-contrast-color: var(--primary-text-color);
+  --surface-0: var(--black-900);
+  --surface-500: var(--black-500);
+  --border-round-3xl: 1.5rem;
+}
