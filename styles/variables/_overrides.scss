@@ -1,12 +1,40 @@
 :root {
-  --primary-color: var(--blue-500);
-  --primary-hover-color: var(--blue-400);
-  --primary-active-color: var(--blue-300);
-  --text-color: var(--white-100);
+  --primary-color: var(--color-blue-500);
+  --primary-hover-color: var(--color-blue-400);
+  --primary-active-color: var(--color-blue-300);
+  --text-color: var(--color-white-100);
   --button-outlined-primary-border-color: var(--primary-color);
   --primary-text-color: var(--white-100);
   --primary-contrast-color: var(--primary-text-color);
-  --surface-0: var(--black-900);
-  --surface-500: var(--black-500);
+  --surface-0: var(--color-black-900);
+  --surface-500: var(--color-black-500);
   --border-round-3xl: 1.5rem;
+}
+
+* {
+  font-family: Inter;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  background: var(--surface-0);
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5c5c572;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5c5c5d1;
+}
+img {
+  user-select: none;
 }

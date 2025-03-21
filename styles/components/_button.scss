@@ -6,8 +6,8 @@
   flex-direction: row-reverse;
 }
 .p-button-contrast {
-  background: var(--white-100);
-  color: var(--blue-700);
+  background: var(--color-white-100);
+  color: var(--color-blue-700);
   border: none;
   transition: scale 0.1s linear;
   &:hover {
